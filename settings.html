@@ -1,0 +1,55 @@
+<div class="nav-tab-region">
+  <ul class="nav nav-tabs">
+    <li class="active">
+      <a data-content-source="html" data-target="#pr-permissions" data-toggle="tab" href="javascript:void(0)">Permissions</a>
+    </li>
+    <li>
+      <a data-content-source="html" data-target="#pr-help" data-toggle="tab" href="javascript:void(0)">Help</a>
+    </li>
+  </ul>
+</div>
+<div class="tab-content-region">
+  <div class="tab-content">
+    <div class="tab-pane active" id="pr-permissions">
+      <table>
+        <tr>
+          <td><label for="pr-groups">Groups</label></td>
+          <td><label for="pr-members">Group Members</label></td>
+          <td><label for="pr-access">Permissions</label> <span class="pr-selectall"><input id="pr-checkall" type="checkbox" /> Select All</span></td>
+        </tr>
+        <tr>
+          <td>
+            <input class="pr-group" type="text" />
+            <button type="button" class="sui-bttn pr-group-add pr-right">Add</button>
+            <button type="button" class="sui-bttn pr-group-save pr-right pr-hidden">Save</button>
+          </td>
+          <td>
+            <select class="pr-member"></select>
+            <button type="button" class="sui-bttn pr-member-add pr-right">Add</button>
+          </td>
+          <td class="pr-access" rowspan="2"></td>
+        </tr>
+        <tr>
+          <td>
+            <select class="pr-groups"></select><br />
+            <button type="button" class="sui-bttn pr-group-del">Remove</button><br/>
+            <label for="pr-override" style="margin-top:25px;">Admin Override Passcode</label>
+            <input class="pr-override" type="password" />
+          </td>
+          <td>
+            <select class="pr-members" multiple="multiple" size="6"></select><br />
+            <button type="button" class="sui-bttn pr-member-del">Remove</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="tab-pane" id="pr-help">
+      <h3>Support Resources</h3>
+      <ul>
+        <li>Official Website: <a href="https://www.michaelmaw.com/apps/pepper-roles" target="_blank">https://www.michaelmaw.com/apps/pepper-roles</a></li>
+        <li>App Center Plugin: <a href="https://community.spiceworks.com/appcenter/app/plugin_1747" target="_blank">https://community.spiceworks.com/appcenter/app/plugin_1747</a></li>
+        <li>Contact Support: <a href="mailto:support@michaelmaw.com">support@michaelmaw.com</a></li>
+      </ul>
+    </div>
+  </div>
+</div>​
