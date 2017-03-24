@@ -6,7 +6,7 @@ Official Website: https://www.michaelmaw.com/apps/pepper-roles/
 
 ![Screenshot](https://www.michaelmaw.com/wp-content/uploads/2015/06/pepper-roles-screenshot.png)
 
-## Current Features (Version  1.7 – Jan 29, 2016)
+## Current Features (Version  1.8 – May 19, 2016)
 
 - Create unlimited custom user groups
 - Add members to each group
